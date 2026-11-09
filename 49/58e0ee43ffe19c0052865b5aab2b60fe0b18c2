@@ -1,0 +1,66 @@
+packages/core/src/renderer/components/helm-releases/releases.tsx
+  s_059462bdfa05c4::t_4cf2446e83155f 86,88
+packages/core/src/renderer/components/helm-releases/release-secrets.injectable.ts
+  s_059462bdfa05c4::t_088276586a47d2 19-21
+  s_059462bdfa05c4::t_47251c3faab02c 8,22
+packages/core/src/main/helm/register-injectables.ts
+  s_488e1ce10c1b6a::t_0d548fe2d1ef45 19
+  s_488e1ce10c1b6a::t_97dbb3cb0d4035 56
+packages/core/src/renderer/components/helm-releases/releases.injectable.ts
+  s_059462bdfa05c4::t_47b3e4333b6199 58
+packages/core/src/main/helm/helm-service/get-helm-release.injectable.ts
+  s_488e1ce10c1b6a::t_79567ffebdc4e4 44,46-47
+  s_488e1ce10c1b6a::t_0b3fcb395b1e82 7,9-10,12,30,33-34,36-43,48,51-52,54,57
+  s_488e1ce10c1b6a::t_5cf58894ea3f42 45
+packages/core/src/main/helm/helm-service/register-injectables.ts
+  s_488e1ce10c1b6a::t_0d548fe2d1ef45 5
+packages/core/src/renderer/components/helm-releases/release-details/release-details-model/release-details-model.injectable.tsx
+  s_488e1ce10c1b6a::t_57f918c1ffeaea 176-178,186-187,199
+  s_488e1ce10c1b6a::t_fdd36aef62af1c 207
+packages/core/src/main/helm/helm-service/list-helm-releases.injectable.ts
+  s_488e1ce10c1b6a::t_e68586c3b17aa0 9,26,31-51
+packages/core/src/main/helm/helm-service/get-helm-release-values.injectable.ts
+  s_488e1ce10c1b6a::t_1f2a9b325c636c 9-10,13-41,48-53,55-57,59-60,62
+packages/core/src/features/helm-releases/showing-details-for-helm-release.test.ts
+  s_488e1ce10c1b6a::t_52d706324b179f 380-381
+packages/core/src/renderer/components/helm-releases/release-details/release-details-model/request-detailed-helm-release.injectable.ts
+  s_488e1ce10c1b6a::t_335807d5676959 35-38
+packages/core/src/features/helm-releases/__snapshots__/showing-details-for-helm-release.test.ts.snap
+  s_059462bdfa05c4::t_9f8807b2984eef 9836,10175,10178-10180,10183-10184,10187-10188,10190-10311,10314-10456,10459,10463,10466-10467,10469-10473,10475-10477,10479-10480,10482-10692,11371,11710-11987
+packages/core/src/main/helm/__tests__/stored-helm-releases.test.ts
+  s_65745bd4bf6327::t_3d6f9062e4c918 6-11,13-14,16-21,23-24,26-56,59-60,62-65,67,70-73,75-89
+packages/core/src/main/helm/request-stored-helm-releases.injectable.ts
+  s_65745bd4bf6327::t_4a06d981dd60a2 6-7,9,11-12,14,16-43,45-46,48-51,53-54,56-57,59-60,62-67,69-71,73-99,104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4958e0ee43ffe19c0052865b5aab2b60fe0b18c2",
+  "prompts": {},
+  "sessions": {
+    "s_059462bdfa05c4": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "f79497a2-024f-4f8b-97ff-10ea0e434989",
+        "model": "auto"
+      },
+      "human_author": "Alberto LL <alberto.lunghi@wolterskluwer.com>"
+    },
+    "s_488e1ce10c1b6a": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "445d79ca-eb60-4e0f-9c4a-fc049ec416f3",
+        "model": "claude-sonnet-5.5"
+      },
+      "human_author": "Alberto LL <alberto.lunghi@wolterskluwer.com>"
+    },
+    "s_65745bd4bf6327": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "87e3d137-f1be-4788-9b5b-da1fabfe375c",
+        "model": "auto"
+      },
+      "human_author": "Alberto LL <alberto.lunghi@wolterskluwer.com>"
+    }
+  }
+}
